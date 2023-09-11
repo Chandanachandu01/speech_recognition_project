@@ -46,9 +46,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.textBrowser.setFont(font)
         self.textBrowser.setStyleSheet("background:transparent;\n"
-"border-radius:none;\n"
-"color:white;\n"
-"font-size:20px;")
+"border-radius:none;")
         self.textBrowser.setObjectName("textBrowser")
         self.textBrowser_2 = QtWidgets.QTextBrowser(self.centralwidget)
         self.textBrowser_2.setGeometry(QtCore.QRect(1010, 50, 211, 41))
@@ -59,9 +57,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.textBrowser_2.setFont(font)
         self.textBrowser_2.setStyleSheet("background:transparent;\n"
-"border-radius:none;\n"
-"color:white;\n"
-"font-size:20px;")
+"border-radius:none;")
         self.textBrowser_2.setObjectName("textBrowser_2")
         self.label = QtWidgets.QLabel(self.centralwidget)
         self.label.setGeometry(QtCore.QRect(10, -10, 1321, 891))
